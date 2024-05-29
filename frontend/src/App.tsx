@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
-import { RequestsPage } from "./pages/Requests/Requests";
+import { RequestsPage } from "./pages/RequestsPage/Requests";
 import { PackagesPage } from "./pages/Packages/Packages";
 import { QueryClientProvider, queryClient } from "@/queries/queries";
 import { RequestDetailsPage } from "./pages/RequestDetailsPage/RequestDetailsPage";
